@@ -18,3 +18,8 @@ paragraph2.innerHTML = 'This is Secound Paragraph Tag ';
 
 let paragraph3 = document.getElementsByName('thisIsParagraphTag')[3]; 
 paragraph3.innerHTML = 'This is Third Paragraph Tag '; 
+
+
+// Now we see getElementByTag
+let h4 = document.getElementsByTagName('h4')[0]; 
+h4.innerHTML = 'Replace Heading 4 Tag';
