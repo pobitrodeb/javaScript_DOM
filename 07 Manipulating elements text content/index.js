@@ -1,2 +1,2 @@
-// let text = document.getElementById(note); 
-// console.log(text);
+let text = document.getElementById(note); 
+console.log(text);
