@@ -5,3 +5,5 @@ list.textContent = "Home",
 
 // menu.replaceChild(list, menu.firstChild);
 menu.replaceChild(list, menu.lastChild);
+// menu.removeChild(list, menu.firstChild);
+// menu.removeChild(list, menu.lastChild);
