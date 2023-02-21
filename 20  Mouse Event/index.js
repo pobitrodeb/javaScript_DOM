@@ -24,4 +24,4 @@ mouseTrack.addEventListener("dblclick", mouseEvent);
 // mouseTrack.addEventListener("mouseover", mouseEvent);
 // mouseTrack.addEventListener("mouseout", mouseEvent);
 // mouseTrack.addEventListener("mouseenter", mouseEvent);
-mouseTrack.addEventListener("mouseleave", mouseEvent);
+mouseTrack.addEventListener("mouseenter", mouseEvent);
