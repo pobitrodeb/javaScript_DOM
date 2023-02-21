@@ -1,3 +1,4 @@
 let main = document.querySelector(".main"); 
 let width = main.offsetWidth; 
-console.log(width);
+let height  = main.offsetHeight; 
+console.log(width, height);
