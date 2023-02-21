@@ -8,3 +8,4 @@ text.style.cssText = "background:green; color:white;"
 let textTwo = document.querySelector(".textTwo");
 let style = getComputedStyle(textTwo); 
 console.log(style.fontSize);
+console.log(style.color);
