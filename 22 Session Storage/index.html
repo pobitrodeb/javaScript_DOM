@@ -14,8 +14,20 @@
   <h2 class="text-center"> Session Storage </h2>
   <section>
     <div class="container">
-          <button class="btn btn-primary" onclick="setLocalStorage('username', 'Pobitor Denath')">Set local storage User Name </button>
-          <button class="btn btn-primary" onclick="getLocalStorage('username')">Get local storage User Name </button>
+          <button class="btn btn-primary" onclick="setLocalStorage('username', 'Pobitor Denath')">
+            Set local storage User Name 
+          </button>
+          <button class="btn btn-primary" onclick="getLocalStorage('username')">
+            Get local storage User Name 
+          </button>
+
+          <button class="btn btn-primary" onclick="removeLocalStorage('name')">
+           Remove Local Storage 
+          </button>
+
+          <button class="btn btn-primary" onclick="clearLocalStorage()">
+           Clear Local Storage 
+          </button>
     </div>
   </section>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"

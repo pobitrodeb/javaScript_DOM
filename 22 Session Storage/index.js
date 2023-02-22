@@ -4,7 +4,7 @@ function setLocalStorage(key,value){
 
 function getLocalStorage(key)
 {
-    sessionStorage.getItem(key);
+   alert( sessionStorage.getItem(key));
 }
 
 function removeLocalStorage(key)
